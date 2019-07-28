@@ -20,10 +20,28 @@ In order to simulate real websites and build projects, you need to download some
 I am just excited to Introduce you to this project.
 So, let's get Started.
 --------------------How to clone this repository in order to get started as you could-------------
-1.To clone orDownload -> Click icon next to the URL and copy the URL
+1.To clone or Download -> Click icon next to the URL and copy the URL
 2. Make a new folder, open it in terminal and paste this command -> $ git clone https://github.com/rakeshrinawa/Full-Stack-For-Beginners.git
-3. Paste the following command $ git init
-Now enter your email and password to connect your local project with github.com so that your code can be pushed/ pulled or configure it globally so that you don't need to enter your username and email everytime you clone or create a repository.
-4. Check the status of git, edit some files and then add, commit and then push the files to github.com in your account.
+and start playing around with the code as I explain below.
+ ----------------How to Start your own project ----------
+ Here I will show how I have done all this stuff so that Beginners can learn by building all this stuff. It's my honour to teach you.
+1. Go to www.github.com and signup using any of the methods, it doesn't matter.
+2. Login to your account and create a new repository from + button on the top right corner. Fill the details and Enter.
+3. Go to settings of the page and enable Github Pages and a theme.
+4. Clone the project in your computer locally so that you can develop whole of the project locally.
+   $ git clone https://github.com/rakeshrinawa/Full-Stack-For-Beginners.git
+5. configure git globally by entering your username, email and password.
+6. Open the project in terminal and initialize git in it so that git software can be used to push your project to Github.com
+    -> $ git init
+7. Make a .gitignore file which will contain sensitive information like your login credentials and other files which shouldn't be pushed to       
+   github.com 
+ 
+ Now you are ready to build your first project.
 
-------------------
+ Open project in VS Code by right-click
+
+------------------ How to develop your project ------------
+Every project needs 3 things to work
+1. Hardware -  Here it must be a Desktop Computer and not your mobile or tab.
+2. Software - It is an application running on an OS which can understand your code and render it as desired. I am using Linux Ubuntu as OS for this and Live-server to render my code on a Browser. Kindly download the live-server extension in the VS code editor. Don't use Windows as it's not designed for  development purposes and most of its commands will be difficult..
+3. The Lines of Code itself which should be fed to the Software/application.
